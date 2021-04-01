@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  
+  <script src="components/loader.js"></script>
+  <script src="lib/jquery-3.6.0.min.js"></script>
+  <script src="components/acao.js"></script>
+
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<style>
+  body{
+			background-color: rgb(216, 253, 81);
+		}
+  #display{
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 98%;
+    height: 120px;
+    margin-right: 0%;
+    margin-bottom: 15%;
+    font-size: 50px;
+  }
+  #ce{
+    width: 173px;
+    height: 80px;
+    margin-left: 53%;
+    margin-right: 0%;
+  }
+  #modo{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+   
+  #numeros{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 4%;
+  }
+  #resultado{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 0%;
+    }
+ 
+  </style>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="form-group">
+          <input type="text" class="form-control" readonly id="display" value="0">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+   <button id="ce" type="button" class="btn btn-primary"><h1>ce</h1></button>
+ </div>
+  <div>
+   <button id="modo" type="button" class="btn btn-primary"><h1>+</h1></button>
+ </div>
+ <div> 
+   <button id="numeros" type="button" class="btn btn-primary btn-block num"><h1>3</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>2</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>1</h1></button>
+ </div>
+  <div>
+ <button id="modo" type="button" class="btn btn-primary"><h1>-</h1></button>
+ </div>
+ <div>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>6</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>5</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>4</h1></button>
+ </div>
+ <div>
+ <button id="modo" type="button" class="btn btn-primary"><h1>x</h1></button>
+ </div>
+ <div>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>9</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>8</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>7</h1></button>
+ </div>
+ <button id="modo" type="button" class="btn btn-primary"><h1>%</h1></button>
+ </div>
+ <div>
+   <button id="resultado" type="button" class="btn btn-primary"><h1>=</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>.</h1></button>
+   <button id="numeros" type="button" class="btn btn-primary"><h1>0</h1></button>
+</body>
+</html>
